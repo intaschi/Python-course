@@ -1,0 +1,7 @@
+s = float(input('Qual o seu salário?'))
+if s > 1250:
+    a = s*0.1
+    print('Você vai receber um aumento de R${}'.format(a))
+else:
+    a = s*0.15
+    print('Você vai rececber um aumento de R$ {}'.format(a))

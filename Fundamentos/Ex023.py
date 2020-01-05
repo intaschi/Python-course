@@ -1,0 +1,6 @@
+n = input('Digite um número de 1 a 1000: ')
+n.split()
+print('Unidade: {}'.format(n[0]))
+print('Dezena: {}'.format(n[1]))
+print('Centena: {}'.format(n[2]))
+print('Milhar: {}'.format(n[1]))

@@ -1,0 +1,31 @@
+nome = str(input('Qual o seu nome?'))
+print(nome.upper())
+x = len(nome) - nome.count(' ')
+print(x)
+print('Em letras maiúsculas, o seu nome fica {}'.format(nome.upper()))
+nd = nome.split()
+print(len(nd[1]))
+ns = nome.split()
+pn = len(ns)
+print(pn)
+print('O seu primeiro nome tem {} letras'.format(nome.split().len(frase(1))))
+
+
+frase = 'Ola pequeno príncipe'
+print(frase[4:18:2])
+len(frase)
+print(len)
+frase.count('o')
+frase.find('Ola')
+'curso'in frase
+frase in 'Mn'
+frase.replace('Ola','idiota')
+frase.upper()
+frase.lower()
+frase.capitalize()
+frase.title()
+frase.strip()
+frase.rstrip()
+frase.lstrip()
+frase.split()
+'-'.join(frase)

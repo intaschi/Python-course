@@ -1,0 +1,5 @@
+j = ('n', 'b', 'w', 'c', 'i', 't', 'a', 'n', 'f', 'j')
+print(j[0:6])
+print(j[-1:-5: -1])
+print(sorted(j))
+print(j.index('c'))
